@@ -48,3 +48,13 @@ Created repository acco-cyber/Enveda-CASMI-2026; reuse it for all future noteboo
 - Current first-place public score0.495. Public code index captures100 recent entries, not an exhaustive audit of every public source.
 - Before any launch, inspect these exact jobs and reconcile status/version with latest submissions. Never duplicate pending launches. Before submission, inspect output schema, row keyset, chemistry checks, simulator health and live submission limits; record exact version and returned receipt. CPU/GPU differences must not be presented as equivalent.
 - No new competition submission has been made in this run as of this handoff. Five submissions were available at initial inspection. Complete/verify a pending run before using a slot.
+
+## Latest-source research
+
+Authenticated index dated2026-10-14 led to inspection of three newer notebooks:
+
+- `antriksharya/casmi26-lb-0-443-v7c-engine-2-rank-2-insert`: reuse Engine2 top1 at final rank2 when different, preserving finaltop1; no added inference. Title0.443 is a source claim, not independently reproduced. Best next cheap controlled experiment after a measured baseline.
+- `ahmedberatozer/casmi26-v8b-native-treatment`: frozen A+B hard-negative FP checkpoint, 600update treatment; additional model provenance/dependency validation required.
+- `flexonafft/casmi26-closing-the-evidence-gap` V15: latest CPU fragment-median overlay, >=3 informative spectra, >=2 discriminative peaks, candidate groups2–8,40-bond cap,lambda1.25,900s hidden budget. No verified higher score.
+
+Do not infer measured improvements from titles or iteration numbers. Avoid blindly consuming remaining slots with equivalent predictions.

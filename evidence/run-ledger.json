@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-10-14",
+  "repository": "acco-cyber/Enveda-CASMI-2026",
+  "account": "gwey1025",
+  "best_public": 0.421,
+  "best_submission_ref": 56869715,
+  "new_competition_submissions": [],
+  "available_slots_at_initial_check": 5,
+  "runs": [
+    {
+      "kernel": "gwey1025/casmi26-e006-control-efficient",
+      "version": 1,
+      "kernel_id": 138751307,
+      "status": "running",
+      "session_timeout_seconds": 7200,
+      "submit_receipt": null
+    },
+    {
+      "kernel": "gwey1025/casmi26-cpu-e006-control",
+      "version": 1,
+      "kernel_id": 138751655,
+      "status": "running",
+      "session_timeout_seconds": 30600,
+      "submit_receipt": null
+    }
+  ],
+  "next_action": "Check both exact versions. Inspect completed outputs, simulator health and schema, check live limits, submit the reviewed complete version once and record receipt. Do not duplicate running jobs.",
+  "gpu_quota_exhausted": true,
+  "gpu_refresh_utc": "2026-10-17T00:00:00Z"
+}
