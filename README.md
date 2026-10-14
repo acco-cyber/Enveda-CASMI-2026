@@ -37,3 +37,14 @@ Next candidate: public flexonafft V90, remove only its final joint-evidence over
 Visible test is a placeholder. Recompute all hidden-test predictions in the notebook. No cached visible-test predictions. Preserve upstream attribution embedded in notebooks. CPU-only equivalence remains unverified because simulators explicitly require CUDA. Actual GPU time and candidate score must be recorded after execution.
 
 Credentials are never committed.
+
+## Current execution handoff (2026-10-14 UTC)
+
+Created repository acco-cyber/Enveda-CASMI-2026; reuse it for all future notebooks.
+
+- GPU E006 kernel: `gwey1025/casmi26-e006-control-efficient`, version1, kernelId138751307; accepted, last observed running. No submission receipt.
+- GPU quota is exhausted: 108079s used /108000s allowed; refresh2026-10-17 00:00UTC. Do not start additional GPU jobs.
+- CPU experiment: `gwey1025/casmi26-cpu-e006-control`, source forces CPU for all models/simulators and8h30 watchdog; see exact push receipt. Compatibility and score unverified.
+- Current first-place public score0.495. Public code index captures100 recent entries, not an exhaustive audit of every public source.
+- Before any launch, inspect these exact jobs and reconcile status/version with latest submissions. Never duplicate pending launches. Before submission, inspect output schema, row keyset, chemistry checks, simulator health and live submission limits; record exact version and returned receipt. CPU/GPU differences must not be presented as equivalent.
+- No new competition submission has been made in this run as of this handoff. Five submissions were available at initial inspection. Complete/verify a pending run before using a slot.
