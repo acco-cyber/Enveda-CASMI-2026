@@ -1,0 +1,30 @@
+{
+  "source_notebook": "notebooks/cpu-e006-v2/cpu_e006_v2.ipynb",
+  "source_sha256": "dd658f132d5c21d352e38428d32785ade9cffa1082c87f86182ba432be852fc4",
+  "source_metadata_sha256": "30bdb3859a2278f8574d52fe4227751cd2f69097974b6604be423692596680d3",
+  "derivative_sha256": "7a46d3e1ddd1c10d6bc567d195c228051ed18a75c3854a51c1fb905795f88131",
+  "overlay_sha256": "5f1b4cfbbf851304ecbd19db8b961b1d5116c61be23d021ea71550bad1e44c70",
+  "inherited_cells_unchanged": true,
+  "additional_cells": 1,
+  "score_status": "unmeasured",
+  "launched": false,
+  "dataset_sources": [
+    "prvsiyan/casmi26-ranker-features",
+    "prvsiyan/casmi26-fp-models-v2",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "megayak/casmi26-simulated-ranker-rows",
+    "ahmedberatozer/casmi26-fpnet-full1",
+    "ahmedberatozer/casmi26-glacier",
+    "ahmedberatozer/casmi26-iceberg",
+    "ahmedberatozer/casmi26-pubchem-tier",
+    "ahmedberatozer/casmi26-v2-pool",
+    "ahmedberatozer/casmi26-v3-models",
+    "ahmedberatozer/casmi26-v4b-models",
+    "prvsiyan/chebi-lipidmaps-casmi26",
+    "prvsiyan/coconut-casmi26-candidates",
+    "hengck23/hengck23-dreams-enveda-casmi26",
+    "metric/rdkit-2026-3-3-wheel",
+    "eveliaveldrine/rdkit-wheels"
+  ],
+  "dataset_version_note": "Dataset source slugs inherited exactly; resolved versions require runtime evidence."
+}

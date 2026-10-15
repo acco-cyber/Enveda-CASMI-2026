@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "kernel": "gwey1025/casmi26-cpu-e006-control",
+  "version": 2,
+  "rows": 400,
+  "sha256": "d137914c7542d666b1f89cf30650d10e632fa74f632fd17f75a41110088f1939",
+  "runtime_seconds": 2451.5,
+  "changed_raw_rows_vs_gpu": 9,
+  "changed_top1_rows_vs_gpu": 0,
+  "scope": "Visible12molecules;388placeholder rows. CPU/GPU exact ranking equivalence not established. Hidden full CPU runtime unverified."
+}

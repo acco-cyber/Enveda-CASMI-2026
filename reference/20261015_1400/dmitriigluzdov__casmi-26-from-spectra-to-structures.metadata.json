@@ -1,0 +1,50 @@
+{
+  "languageNullable": "python",
+  "kernelTypeNullable": "notebook",
+  "isPrivateNullable": false,
+  "enableGpuNullable": true,
+  "enableTpuNullable": false,
+  "enableInternetNullable": false,
+  "currentVersionNumberNullable": 47,
+  "dockerImageNullable": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machineShapeNullable": "NvidiaTeslaT4",
+  "id": 134484860,
+  "ref": "dmitriigluzdov/casmi-26-from-spectra-to-structures",
+  "title": "CASMI 26: From Spectra to Structures",
+  "author": "Dmitrii Gluzdov",
+  "slug": "casmi-26-from-spectra-to-structures",
+  "lastRunTime": "2026-10-12T05:00:50.6980494Z",
+  "language": "python",
+  "hasLanguage": true,
+  "kernelType": "notebook",
+  "hasKernelType": true,
+  "isPrivate": false,
+  "hasIsPrivate": true,
+  "enableGpu": true,
+  "hasEnableGpu": true,
+  "enableTpu": false,
+  "hasEnableTpu": true,
+  "enableInternet": false,
+  "hasEnableInternet": true,
+  "categoryIds": [
+    "gpu"
+  ],
+  "datasetDataSources": [
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior"
+  ],
+  "kernelDataSources": [],
+  "competitionDataSources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "modelDataSources": [],
+  "totalVotes": 110,
+  "currentVersionNumber": 47,
+  "hasCurrentVersionNumber": true,
+  "dockerImage": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "hasDockerImage": true,
+  "machineShape": "NvidiaTeslaT4",
+  "hasMachineShape": true
+}

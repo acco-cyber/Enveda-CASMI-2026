@@ -64,3 +64,11 @@ Do not infer measured improvements from titles or iteration numbers. Avoid blind
 GPU E006 version1 completed: smoke runtime1048.7seconds; full exported notebook1098.96seconds. CSV400unique input IDs/hash/1-25 candidate bounds and simulator health passed. This is12molecule smoke, not hidden validation. Submitted exactversion1: receipt57202348. Initial live limit5; after submission1used,4remaining. Score pending.
 
 CPU version1 failed strictly: ICE budget300seconds expired with0molecules scored. CPU version2 increases only smoke ICE300->1800seconds and is running; hidden budgets and strict checks retained. No score/runtime equivalence claimed. Preserve failed version and do not submit it. See evidence/20261015 and updated run-ledger.
+
+## CPU validation and second submission (2026-10-15)
+
+CPU E006 v2 completed: core2451.5seconds, observer2469.75seconds. ICE/GLstatusok onCPU,11coveredmolecules scored each.400row keys/hash/candidatebounds passed. Visible12-molecule smoke differs from GPU in9rawtail rows,0top1rows; not an equivalence proof or independent validation. Submitted exactCPUv2:57216989. GPU57202348 andCPU57216989 remainpending at inspection;2used,3slotsremain.
+
+Three distinctCPU-only version1 trials are running: `gwey1025/casmi26-cpu-window30` (kernel138790133), `gwey1025/casmi26-cpu-window80` (138790146), `gwey1025/casmi26-cpu-e006-engine2-rank2` (138790158). Compare conservative/expanded candidate windows and top1-preserving official-identity rank2insertion. No newinferencepass or GPUallocation beyond sharedCPUparent. Window30 guard expansion is documented. Preserve strictchecks and reject genuinely identical predictions/no-oprank2. Do not duplicate these runs.
+
+See evidence/20261015_1400, notebookbuildmanifests and generators. Fullhidden CPUruntime and scoregains remainunverified. Freshpublicsourceaudit identifies Dmitriiv47 CPUfragment/ICEevidence as a separate future experiment, not adopted here.

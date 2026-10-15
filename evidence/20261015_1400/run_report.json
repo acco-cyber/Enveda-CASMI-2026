@@ -1,0 +1,75 @@
+{
+  "cpu_v2_submission_ref": 57216989,
+  "gpu_submission_ref": 57202348,
+  "scores": "both pending at initial check",
+  "cpu_smoke_runtime_seconds": 2451.5,
+  "cpu_ice_seconds": 1055.42,
+  "cpu_glacier_seconds": 196.91,
+  "cpu_vs_gpu_changed_raw_rows": 9,
+  "cpu_vs_gpu_changed_top1_rows": 0,
+  "scope": "12visible molecules; hidden runtime and score not proven",
+  "variants": [
+    {
+      "kernel": "gwey1025/casmi26-cpu-window30",
+      "source_sha256": "2b2c8375f9f51cca790548bb17cf51953d979e8f9a5ce3b30bfa9879d62830ea",
+      "status": "accepted",
+      "receipt": {
+        "versionNumberNullable": 1,
+        "ref": "/code/gwey1025/casmi26-cpu-window30",
+        "url": "https://www.kaggle.com/code/gwey1025/casmi26-cpu-window30",
+        "versionNumber": 1,
+        "hasVersionNumber": true,
+        "error": "",
+        "hasError": false,
+        "invalidTags": [],
+        "invalidDatasetSources": [],
+        "invalidCompetitionSources": [],
+        "invalidKernelSources": [],
+        "invalidModelSources": [],
+        "kernelId": 138790133
+      }
+    },
+    {
+      "kernel": "gwey1025/casmi26-cpu-window80",
+      "source_sha256": "40aaa13fa194948cc3b3a8c952317f23ef75dcf11db55f177ab09d7d83eac459",
+      "status": "accepted",
+      "receipt": {
+        "versionNumberNullable": 1,
+        "ref": "/code/gwey1025/casmi26-cpu-window80",
+        "url": "https://www.kaggle.com/code/gwey1025/casmi26-cpu-window80",
+        "versionNumber": 1,
+        "hasVersionNumber": true,
+        "error": "",
+        "hasError": false,
+        "invalidTags": [],
+        "invalidDatasetSources": [],
+        "invalidCompetitionSources": [],
+        "invalidKernelSources": [],
+        "invalidModelSources": [],
+        "kernelId": 138790146
+      }
+    },
+    {
+      "kernel": "gwey1025/casmi26-cpu-e006-engine2-rank2",
+      "source_sha256": "7a46d3e1ddd1c10d6bc567d195c228051ed18a75c3854a51c1fb905795f88131",
+      "status": "accepted",
+      "receipt": {
+        "versionNumberNullable": 1,
+        "ref": "/code/gwey1025/casmi26-cpu-e006-engine2-rank2",
+        "url": "https://www.kaggle.com/code/gwey1025/casmi26-cpu-e006-engine2-rank2",
+        "versionNumber": 1,
+        "hasVersionNumber": true,
+        "error": "",
+        "hasError": false,
+        "invalidTags": [],
+        "invalidDatasetSources": [],
+        "invalidCompetitionSources": [],
+        "invalidKernelSources": [],
+        "invalidModelSources": [],
+        "kernelId": 138790158
+      }
+    }
+  ],
+  "planned_next_submission_slots": 3,
+  "no_additional_gpu_notebook_launches": true
+}

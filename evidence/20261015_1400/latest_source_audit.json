@@ -1,0 +1,23 @@
+{
+  "new_sources": [
+    {
+      "source": "dmitriigluzdov/casmi-26-from-spectra-to-structures",
+      "version": 47,
+      "finding": "CPUfragment gate extended to any noGL molecule incl ICEcovered; combineICE+fragment weightsICE_LAM,0.5; GLcovered unchanged. No newGPU/model/retrieval pass.",
+      "evidence_limit": "V46authorreported0.441; V47score unmeasured. Fragmentloop lacks explicit deadline and can change top1.",
+      "next_step": "Consider separately boundedCPU fragment overlay after current3controlledexperiments and measured scores."
+    },
+    {
+      "source": "juna1013/casmi-2026-train-submission",
+      "version": 6,
+      "finding": "CPUcosinelibrarybaseline.50kArrowbatch streaming+masssearchsorted are useful efficiency patterns.",
+      "evidence_limit": "Same-adductmatching/rawSMILESdedup/spectrumholdout withcompoundoverlap do not validate novelstructuregeneralization."
+    },
+    {
+      "source": "thivnti/casmi-2026-msms-spectra-eda-rdkit-starter",
+      "version": 4,
+      "finding": "Reads precomputed benchmark and stratifiesexistingreciprocalrankbyadduct; usefuldiagnosticschemaonly.",
+      "evidence_limit": "No newprojector inference, competitionprediction,submission.csv or measuredscore."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "kernel": "gwey1025/casmi26-cpu-window30",
+    "version": 1,
+    "status": "running",
+    "failureMessage": "",
+    "hasFailureMessage": false
+  },
+  {
+    "kernel": "gwey1025/casmi26-cpu-window80",
+    "version": 1,
+    "status": "running",
+    "failureMessage": "",
+    "hasFailureMessage": false
+  },
+  {
+    "kernel": "gwey1025/casmi26-cpu-e006-engine2-rank2",
+    "version": 1,
+    "status": "running",
+    "failureMessage": "",
+    "hasFailureMessage": false
+  }
+]
