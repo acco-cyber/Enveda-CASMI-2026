@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "kernel": "gwey1025/casmi26-cpu-window30",
+  "version": 1,
+  "rows": 400,
+  "file_sha256": "8a57f5283976a7955ef07232292e23becda8a54b3e4b741429fc8bbed77ae5c0",
+  "rdkit": "2026.03.3",
+  "official_identity_valid_unique": true,
+  "ranked_identity_hash": "f6a0e03fa07cfec8d1185066b416563f499371a7b82ff5cb001ae0253a99b839",
+  "runtime_seconds": 2497.9,
+  "same_run_changed_rows": 10,
+  "same_run_top1_changes": 0,
+  "validation_scope": "12activevisiblemolecules and388placeholderrows; hidden score/runtime unknown",
+  "official_changed_rows_vs_cpu_v2": 10,
+  "official_changed_rows_vs_same_run_control": 10
+}

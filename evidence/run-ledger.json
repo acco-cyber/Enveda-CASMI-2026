@@ -1,21 +1,35 @@
 {
-  "checked_utc": "2026-10-15T05:00:00Z",
+  "checked_utc": "2026-10-15T08:10:00Z",
   "repository": "acco-cyber/Enveda-CASMI-2026",
   "account": "gwey1025",
-  "best_public": 0.421,
-  "best_submission_ref": 56869715,
+  "best_public": 0.44,
+  "best_submission_ref": 57202348,
   "new_competition_submissions": [
     {
       "ref": 57202348,
       "kernel": "gwey1025/casmi26-e006-control-efficient",
       "version": 1,
-      "status": "pending",
-      "score": null
+      "status": "complete",
+      "score": 0.44
     },
     {
       "ref": 57216989,
       "kernel": "gwey1025/casmi26-cpu-e006-control",
       "version": 2,
+      "status": "pending",
+      "score": null
+    },
+    {
+      "ref": 57222276,
+      "kernel": "gwey1025/casmi26-cpu-window30",
+      "version": 1,
+      "status": "pending",
+      "score": null
+    },
+    {
+      "ref": 57222283,
+      "kernel": "gwey1025/casmi26-cpu-window80",
+      "version": 1,
       "status": "pending",
       "score": null
     }
@@ -51,32 +65,42 @@
       "kernel": "gwey1025/casmi26-cpu-window30",
       "version": 1,
       "kernel_id": 138790133,
-      "status": "accepted",
+      "status": "complete",
       "source_sha256": "2b2c8375f9f51cca790548bb17cf51953d979e8f9a5ce3b30bfa9879d62830ea",
-      "submit_receipt": null,
+      "submit_receipt": 57222276,
       "gpu": false
     },
     {
       "kernel": "gwey1025/casmi26-cpu-window80",
       "version": 1,
       "kernel_id": 138790146,
-      "status": "accepted",
+      "status": "complete",
       "source_sha256": "40aaa13fa194948cc3b3a8c952317f23ef75dcf11db55f177ab09d7d83eac459",
-      "submit_receipt": null,
+      "submit_receipt": 57222283,
       "gpu": false
     },
     {
       "kernel": "gwey1025/casmi26-cpu-e006-engine2-rank2",
       "version": 1,
       "kernel_id": 138790158,
-      "status": "accepted",
+      "status": "complete",
       "source_sha256": "7a46d3e1ddd1c10d6bc567d195c228051ed18a75c3854a51c1fb905795f88131",
       "submit_receipt": null,
-      "gpu": false
+      "gpu": false,
+      "disposition": "not_submitted_observed_noop"
+    },
+    {
+      "kernel": "gwey1025/casmi26-cpu-e006-fragment-gap",
+      "version": 1,
+      "kernel_id": 138815528,
+      "status": "accepted",
+      "gpu": false,
+      "source_sha256": "93b0d5fe66c9baf29fcfb8b4ce40621e057839a05ddf45a529a756a424020a87",
+      "submit_receipt": null
     }
   ],
-  "next_action": "Reconcile scored submissions57202348 and57216989 first. Inspect exactversion1 of CPUwindow30,CPUwindow80,CPUrank2 jobs; never duplicate accepted jobs. Validate health/keyset/chemistry/hash and compare actual outputs; reject identical metric-ranked predictions/no-oprank2. Submit reviewed distinct completed variants once until live5-slot limit reached. Score/runtime gains are unmeasured.",
+  "next_action": "Reconcile all4chargedreceipts first. Inspect fragmentgap exactversion1 status/output, sourcehash and optional-stageaudit, officialmetric/keyset/universe/coverage and same-run eligibility. Submit once only ifcomplete,valid,actuallychanged and live lastslotavailable; no duplicate rank2/noop. Record measuredCPU score before promoting CPU asGPU equivalent. Continue scoreimprovement research afterdailyquota; goalrank1notachieved.",
   "gpu_quota_exhausted": true,
   "gpu_refresh_utc": "2026-10-17T00:00:00Z",
-  "available_slots_at_last_check": 3
+  "available_slots_at_last_check": 1
 }

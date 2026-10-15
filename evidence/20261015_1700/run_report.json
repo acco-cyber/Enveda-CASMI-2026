@@ -1,0 +1,33 @@
+{
+  "best_before": 0.421,
+  "best_now": 0.44,
+  "best_ref": 57202348,
+  "new_submissions": [
+    57222276,
+    57222283
+  ],
+  "daily_used": 4,
+  "daily_remaining": 1,
+  "rank2": "same-run/CPUv2byteidentical;eligiblefalse;not submitted",
+  "window_variants": "both valid+metricdistinct10rows vsCPUv2 andsame-runcontrol;top1unchanged in12visible rows",
+  "validation_runtime_rdkit": "2026.03.3",
+  "fragment_replacement": {
+    "receipt": {
+      "versionNumberNullable": 1,
+      "ref": "/code/gwey1025/casmi26-cpu-e006-fragment-gap",
+      "url": "https://www.kaggle.com/code/gwey1025/casmi26-cpu-e006-fragment-gap",
+      "versionNumber": 1,
+      "hasVersionNumber": true,
+      "error": "",
+      "hasError": false,
+      "invalidTags": [],
+      "invalidDatasetSources": [],
+      "invalidCompetitionSources": [],
+      "invalidKernelSources": [],
+      "invalidModelSources": [],
+      "kernelId": 138815528
+    },
+    "source_sha256": "93b0d5fe66c9baf29fcfb8b4ce40621e057839a05ddf45a529a756a424020a87"
+  },
+  "score_scope": "GPU0.440measured;CPU+window scorespending;visible smoke nothiddenvalidation"
+}

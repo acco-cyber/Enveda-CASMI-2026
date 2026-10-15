@@ -1,0 +1,24 @@
+{
+  "new_public_sources": [
+    {
+      "source": "saddamaditya/forensics-lab-the-apex-dossier-lb-0-442-sota",
+      "version": 2,
+      "finding": "ExistingE006+FragGap+Engine2rank2lineage. Title0.442/markdown0.443SOTA have no execution-score evidence; score-keydedupnotprovenofficialidentity."
+    },
+    {
+      "source": "dovydigital/casmi26-p040-antriksharya-v7c-e2rank2-0443-repro",
+      "version": 1,
+      "finding": "Sameearlier rank2overlay, no outputs/measuredscore evidence;0.443innameunverified."
+    },
+    {
+      "source": "juna1013/casmi-2026-train-submission",
+      "version": 7,
+      "finding": "OnlysubstantivedeltaagainstV6 isBIN_WIDTH0.1->0.05; doublesbins,CPUretrievalbaseline, measuredbenefitunverified."
+    },
+    {
+      "source": "thivnti/casmi-2026-offline-rdkit-adduct-mrr25-writeup",
+      "version": 1,
+      "finding": "Resource/adductEDAwriteup; no newinferenceorcompetition scoreproof."
+    }
+  ]
+}
