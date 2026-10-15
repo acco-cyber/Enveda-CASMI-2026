@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-15T08:10:00Z",
+  "checked_utc": "2026-10-15T11:06:00Z",
   "repository": "acco-cyber/Enveda-CASMI-2026",
   "account": "gwey1025",
   "best_public": 0.44,
@@ -16,8 +16,8 @@
       "ref": 57216989,
       "kernel": "gwey1025/casmi26-cpu-e006-control",
       "version": 2,
-      "status": "pending",
-      "score": null
+      "status": "complete",
+      "score": 0.433
     },
     {
       "ref": 57222276,
@@ -93,13 +93,24 @@
       "kernel": "gwey1025/casmi26-cpu-e006-fragment-gap",
       "version": 1,
       "kernel_id": 138815528,
-      "status": "accepted",
+      "status": "complete",
       "gpu": false,
       "source_sha256": "93b0d5fe66c9baf29fcfb8b4ce40621e057839a05ddf45a529a756a424020a87",
+      "submit_receipt": null,
+      "disposition": "not_submitted_observed_noop",
+      "changed_rows": 0
+    },
+    {
+      "kernel": "gwey1025/casmi26-cpu-e006-engine2-alpha075",
+      "version": 1,
+      "kernel_id": 138840608,
+      "status": "running",
+      "gpu": false,
+      "source_sha256": "082eb2d8daca785f1c5c4fcd1aedda74755738b25b89583b4b60bf46db4cf232",
       "submit_receipt": null
     }
   ],
-  "next_action": "Reconcile all4chargedreceipts first. Inspect fragmentgap exactversion1 status/output, sourcehash and optional-stageaudit, officialmetric/keyset/universe/coverage and same-run eligibility. Submit once only ifcomplete,valid,actuallychanged and live lastslotavailable; no duplicate rank2/noop. Record measuredCPU score before promoting CPU asGPU equivalent. Continue scoreimprovement research afterdailyquota; goalrank1notachieved.",
+  "next_action": "Reconcile all four existing receipts. Inspect exact Alpha075 version1 after completion: require strict inherited health checks, paired E006 reconstruction, changed ranked official identities, valid chemistry, keyset and hashes. Submit once only if eligible and live last slot available; do not duplicate no-op rank2/fragment. CPU control scored0.433, GPU best0.440; no equivalence or rank1 claim. Never duplicate this running job.",
   "gpu_quota_exhausted": true,
   "gpu_refresh_utc": "2026-10-17T00:00:00Z",
   "available_slots_at_last_check": 1

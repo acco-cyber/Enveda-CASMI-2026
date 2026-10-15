@@ -80,3 +80,11 @@ GPU E006 receipt57202348 completed with public0.440, improving the recorded0.421
 Rank2trial completed but equals CPUv2 byte-for-byte:0changedrows,11alreadyrank1+1alreadyrank2;submission_eligiblefalse. It was not submitted. Replacement `gwey1025/casmi26-cpu-e006-fragment-gap` version1 (kernel138815528) is accepted and runningCPU-only. It appends noGL fragment+ICE reranking, preserves exactcandidate universe/formulaslots, boundsworker900s hidden/120s smoke, and retains baseline on optional failures. Independent review fixed NaN/launch/checkpointfail-open handling and atomicCSVwrites; baselineintegritychecksremainmandatory. No score claim, and no-op outputs must not spend lastslot. Inspect exactversion1 before further launch/submission.
 
 Evidence: evidence/20261015_1700. All reference/code files retain upstream attribution. Source titles claiming0.442/0.443 do not establish measuredscores. The first-place publicscore was0.495 at inspection; rank1goalnotachieved.
+
+## CPU score and fifth-slot candidate (2026-10-15 11:06 UTC)
+
+CPU E006 v2 receipt57216989 completed with public **0.433**; GPU best remains **0.440**. Window30/80 are still pending. Fragment-gap completed with zero eligible rows and identical output, so it was not submitted. Four daily slots used, one remains.
+
+Independently reviewed CPU_ALPHA075 version1 is running: https://www.kaggle.com/code/gwey1025/casmi26-cpu-e006-engine2-alpha075 (kernel138840608). It appends one final RRF weight experiment, Engine2 alpha0.6→0.75, with all35 parent cells unchanged. Exact same-run E006 reconstruction is mandatory before treatment; changed ranked official identities, chemistry/keyset/hash and inherited stage health must pass before submission. No added GPU allocation, inference pass or simulator pass. No score gain is claimed; top1 may change and score may worsen. Do not duplicate this pending run.
+
+See evidence/20261015_2000/handoff.md and updated run-ledger. Rank1 remains unachieved; dataset version resolution and hidden-test generalization remain uncertain.

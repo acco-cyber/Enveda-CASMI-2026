@@ -1,0 +1,31 @@
+{
+  "experiment": "CPU_E006_bounded_fragment_noGL",
+  "score_status": "unmeasured",
+  "inference_added": "CPU two-cleavage fragment scoring only; no learned model/retrieval",
+  "candidate_universe": "same final25 metric identities; formula slots preserved",
+  "source": "https://www.kaggle.com/code/dmitriigluzdov/casmi-26-from-spectra-to-structures",
+  "source_version": 47,
+  "upstream_v46_score": "author-reported0.441; not this derivative",
+  "fragment_source_sha256": "eeacdcf0afb173a8b438054d93c30f061df7c9c69d1ae32db3530b2916f2e6a7",
+  "eligible": 0,
+  "complete": 0,
+  "worker_errors": {},
+  "worker_returncode": null,
+  "optional_errors": [],
+  "worker_warmup": false,
+  "worker_timed_out": false,
+  "budget_seconds": 120,
+  "elapsed_seconds": 0.008626167000329588,
+  "rows": 400,
+  "active_rows": 12,
+  "changed_rows": 0,
+  "top1_changes": 0,
+  "baseline_sha256": "d137914c7542d666b1f89cf30650d10e632fa74f632fd17f75a41110088f1939",
+  "treatment_sha256": "d137914c7542d666b1f89cf30650d10e632fa74f632fd17f75a41110088f1939",
+  "limitations": [
+    "Visible smoke is mechanical validation only.",
+    "Final25 universe restriction differs from upstream40 fusion.",
+    "Timeout keeps only completed whole-molecule checkpoints."
+  ],
+  "submission_eligible": false
+}

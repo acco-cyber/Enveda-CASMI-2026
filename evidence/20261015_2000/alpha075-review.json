@@ -1,0 +1,16 @@
+{
+  "source_sha256": "082eb2d8daca785f1c5c4fcd1aedda74755738b25b89583b4b60bf46db4cf232",
+  "reviewer": "independent review agent",
+  "result": "pass_no_blocking_issues",
+  "checks": [
+    "original35cells preserved",
+    "exact source row AST retained",
+    "E006 paired control alpha0.6/ICEfallbackTrue/window40",
+    "official identity validity and uniqueness",
+    "atomic CSV replacement",
+    "no-op rejection",
+    "synthetic ranking boundary and placeholder checks passed"
+  ],
+  "score_status": "unmeasured",
+  "actual_smoke_delta": "pending"
+}
