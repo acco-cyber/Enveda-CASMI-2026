@@ -1,0 +1,47 @@
+{
+  "languageNullable": "python",
+  "kernelTypeNullable": "notebook",
+  "isPrivateNullable": false,
+  "enableGpuNullable": false,
+  "enableTpuNullable": false,
+  "enableInternetNullable": false,
+  "currentVersionNumberNullable": 11,
+  "dockerImageNullable": "gcr.io/kaggle-images/python@sha256:81b1e7c4b4f0f2a7e0a33943c95754b1b7af6b30d65221633a284b6b601cd84a",
+  "machineShapeNullable": "None",
+  "id": 138043445,
+  "ref": "rushikeshpundkar/notebook9ef1cf0c62",
+  "title": "notebook9ef1cf0c62",
+  "author": "Rushikesh Pundkar",
+  "slug": "notebook9ef1cf0c62",
+  "lastRunTime": "2026-10-12T02:08:05.386446Z",
+  "language": "python",
+  "hasLanguage": true,
+  "kernelType": "notebook",
+  "hasKernelType": true,
+  "isPrivate": false,
+  "hasIsPrivate": true,
+  "enableGpu": false,
+  "hasEnableGpu": true,
+  "enableTpu": false,
+  "hasEnableTpu": true,
+  "enableInternet": false,
+  "hasEnableInternet": true,
+  "categoryIds": [
+    "scheduled"
+  ],
+  "datasetDataSources": [],
+  "kernelDataSources": [],
+  "competitionDataSources": [
+    "enveda-CASMI26-molecule-id-mass-spectra"
+  ],
+  "modelDataSources": [
+    "jahidhsn/casmi26-fingerprint-model/PyTorch/default/3"
+  ],
+  "totalVotes": 0,
+  "currentVersionNumber": 11,
+  "hasCurrentVersionNumber": true,
+  "dockerImage": "gcr.io/kaggle-images/python@sha256:81b1e7c4b4f0f2a7e0a33943c95754b1b7af6b30d65221633a284b6b601cd84a",
+  "hasDockerImage": true,
+  "machineShape": "None",
+  "hasMachineShape": true
+}

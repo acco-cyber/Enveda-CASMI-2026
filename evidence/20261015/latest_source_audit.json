@@ -1,0 +1,24 @@
+{
+  "inspected_changed_notebooks": 3,
+  "findings": [
+    {
+      "source": "rushikeshpundkar/notebook9ef1cf0c62",
+      "version": 11,
+      "decision": "reject as competition solver",
+      "evidence": "Five demo rows, wrong id/SMILES schema, MGF parser invoked on submission.csv, fabricated benchmark passes. No valid score inference."
+    },
+    {
+      "source": "stupidxie/casmi26-pi-rsi-autoresearch",
+      "version": 4,
+      "decision": "do not spend GPU for reproduction",
+      "evidence": "Source self-reports PublicLB0.228 vs localproxy0.400; states proxy did not transfer. Fresh training and optional CUDA branch, not noGPU improvement."
+    },
+    {
+      "source": "shuheitak/enveda-iceberg438",
+      "version": 1,
+      "decision": "no verified stronger CPU candidate",
+      "evidence": "T4/CUDA ICE+GL; fusionwindow40->80 with atmost65candidates and ICEfallback already in E006. No measured score established for this fork;438name is not evidence."
+    }
+  ],
+  "interpretation": "Source claims and code audit, not independently reproduced new scores."
+}

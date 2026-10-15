@@ -16,6 +16,8 @@
   "cpu_v2_status": "running",
   "cpu_hidden_runtime_equivalence": "unverified",
   "daily_slots_initial": 5,
-  "remaining_slots": "verify limits_after.json",
-  "next_experiment": "After baseline score and CPU validation, test no-added-inference Engine2 rank2 insertion. Do not duplicate unchanged predictions."
+  "remaining_slots": 4,
+  "next_experiment": "After baseline score and CPU validation, test no-added-inference Engine2 rank2 insertion. Do not duplicate unchanged predictions.",
+  "submission_status": "pending",
+  "full_notebook_elapsed_seconds": 1098.956640545
 }
