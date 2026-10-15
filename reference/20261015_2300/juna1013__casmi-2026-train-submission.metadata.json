@@ -1,0 +1,9 @@
+{
+  "ref": "juna1013/casmi-2026-train-submission",
+  "title": "CASMI 2026 - train/submission",
+  "lastRunTime": "2026-10-12T14:02:02.9732661Z",
+  "currentVersionNumber": 15,
+  "enableGpu": false,
+  "language": "python",
+  "datasetDataSources": []
+}

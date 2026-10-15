@@ -1,0 +1,40 @@
+{
+  "result": "pass",
+  "independent_review": "pass_no_blocking_issues",
+  "kernel": "gwey1025/casmi26-cpu-e006-engine2-alpha075",
+  "version": 1,
+  "submission_ref": 57233074,
+  "source_sha256": "082eb2d8daca785f1c5c4fcd1aedda74755738b25b89583b4b60bf46db4cf232",
+  "rows": 400,
+  "active_rows": 12,
+  "placeholders": 388,
+  "changed_official_ranked_rows": 12,
+  "top1_changes": 0,
+  "paired_hashes_verified": true,
+  "ordered_keys_unique": true,
+  "official_identity_checks": "reviewed runtime RDKit2026.03.3 assertions",
+  "cpu_stages": {
+    "ice": {
+      "status": "ok",
+      "device": "cpu",
+      "n_mols_scored": 11,
+      "n_mols_covered": 11,
+      "n_pred_fail": 0,
+      "seconds": 884.61
+    },
+    "gl": {
+      "status": "ok",
+      "device": "cpu",
+      "n_mols_scored": 11,
+      "n_mols_covered": 11,
+      "n_pred_fail": 0,
+      "seconds": 163.98
+    }
+  },
+  "core_smoke_seconds": 2145.56,
+  "overlay_seconds": 19.865095838999878,
+  "full_export_log_seconds": 2210.507968953,
+  "gpu_allocation": false,
+  "score": "pending",
+  "limitation": "Visible12molecule smoke with388placeholders; notebook reruns on hidden data. No full hidden runtime or score improvement proof."
+}

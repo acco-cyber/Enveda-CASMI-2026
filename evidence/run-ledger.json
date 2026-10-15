@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-15T11:06:00Z",
+  "checked_utc": "2026-10-15T14:03:00Z",
   "repository": "acco-cyber/Enveda-CASMI-2026",
   "account": "gwey1025",
   "best_public": 0.44,
@@ -23,12 +23,19 @@
       "ref": 57222276,
       "kernel": "gwey1025/casmi26-cpu-window30",
       "version": 1,
-      "status": "pending",
-      "score": null
+      "status": "complete",
+      "score": 0.433
     },
     {
       "ref": 57222283,
       "kernel": "gwey1025/casmi26-cpu-window80",
+      "version": 1,
+      "status": "pending",
+      "score": null
+    },
+    {
+      "ref": 57233074,
+      "kernel": "gwey1025/casmi26-cpu-e006-engine2-alpha075",
       "version": 1,
       "status": "pending",
       "score": null
@@ -104,14 +111,14 @@
       "kernel": "gwey1025/casmi26-cpu-e006-engine2-alpha075",
       "version": 1,
       "kernel_id": 138840608,
-      "status": "running",
+      "status": "complete",
       "gpu": false,
       "source_sha256": "082eb2d8daca785f1c5c4fcd1aedda74755738b25b89583b4b60bf46db4cf232",
-      "submit_receipt": null
+      "submit_receipt": 57233074
     }
   ],
-  "next_action": "Reconcile all four existing receipts. Inspect exact Alpha075 version1 after completion: require strict inherited health checks, paired E006 reconstruction, changed ranked official identities, valid chemistry, keyset and hashes. Submit once only if eligible and live last slot available; do not duplicate no-op rank2/fragment. CPU control scored0.433, GPU best0.440; no equivalence or rank1 claim. Never duplicate this running job.",
+  "next_action": "Daily quota5/5 reached. Reconcile Alpha07557233074 and window8057222283 grading. Preserve GPU best0.440; CPU control/window30 both0.433. No further submissions until live limit available. Research next lowGPU candidates using verified provenance and meaningful same-run comparisons. Do not relaunch already completed jobs; rank1 goal remains unachieved.",
   "gpu_quota_exhausted": true,
   "gpu_refresh_utc": "2026-10-17T00:00:00Z",
-  "available_slots_at_last_check": 1
+  "available_slots_at_last_check": 0
 }

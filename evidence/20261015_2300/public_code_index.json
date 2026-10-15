@@ -1,0 +1,702 @@
+[
+  {
+    "ref": "juna1013/casmi-2026-train-submission",
+    "title": "CASMI 2026 - train/submission",
+    "lastRunTime": "2026-10-15T14:00:26.33Z",
+    "totalVotes": 7,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v450-sovereign-sodiated-rank2",
+    "title": "CASMI26 Apex v450 Sovereign Sodiated Rank2",
+    "lastRunTime": "2026-10-15T13:35:19.643Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v440-sovereign-multi-ce-rank2",
+    "title": "CASMI26 Apex v440 Sovereign Multi-CE Rank2",
+    "lastRunTime": "2026-10-15T13:35:02.257Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v420-sovereign-rank2-vanguard",
+    "title": "CASMI26 Apex v420 Sovereign Rank2 Vanguard",
+    "lastRunTime": "2026-10-15T11:27:45.343Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "flexonafft/casmi26-closing-the-evidence-gap",
+    "title": "CASMI26: Closing the Evidence Gap",
+    "lastRunTime": "2026-10-15T11:23:07.403Z",
+    "totalVotes": 9,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v430-sovereign-nakayoshi-fraggap",
+    "title": "CASMI26 Apex v430 Sovereign Nakayoshi FragGap",
+    "lastRunTime": "2026-10-15T11:05:01.993Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "seyitkaangunes/casmi26-e006-pubchem-promo-rel-150-lb-0-446",
+    "title": "CASMI26 | E006 + PubChem Promo rel>150 | LB 0.446",
+    "lastRunTime": "2026-10-15T10:51:08.03Z",
+    "totalVotes": 19,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "ahmedberatozer/casmi26-v11-e2rank2-rel150",
+    "title": "casmi26-v11-e2rank2-rel150",
+    "lastRunTime": "2026-10-15T10:20:30.953Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "beraterolelk/0-336-sota-enveda-casmi26-analog-ranker",
+    "title": "\u26a1 [0.336+ SOTA] Enveda CASMI26 Analog Ranker",
+    "lastRunTime": "2026-10-15T10:14:53.927Z",
+    "totalVotes": 80,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "saddamaditya/forensics-lab-the-apex-dossier-lb-0-442-sota",
+    "title": "Forensics Lab: The Apex Dossier (LB 0.442+ SOTA)",
+    "lastRunTime": "2026-10-15T09:56:55.007Z",
+    "totalVotes": 13,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "seyitkaangunes/casmi26-e006-tuned-pubchem-promo-lb-0-444",
+    "title": "CASMI26 | E006 + Tuned PubChem Promo | LB 0.444",
+    "lastRunTime": "2026-10-15T09:01:18.603Z",
+    "totalVotes": 27,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "dmitriigluzdov/casmi-26-from-spectra-to-structures",
+    "title": "CASMI 26: From Spectra to Structures",
+    "lastRunTime": "2026-10-15T08:41:44.683Z",
+    "totalVotes": 111,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "dovydigital/casmi26-p040-antriksharya-v7c-e2rank2-0443-repro",
+    "title": "casmi26 p040 antriksharya v7c e2rank2 0443 repro",
+    "lastRunTime": "2026-10-15T06:25:10.11Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "thivnti/casmi-2026-offline-rdkit-adduct-mrr25-writeup",
+    "title": "CASMI 2026 Offline RDKit Adduct MRR25 Writeup",
+    "lastRunTime": "2026-10-15T06:15:02.67Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "jaxa623/casmi26-nakayoshinoyatsu-lb-0-443",
+    "title": "CASMI26 Nakayoshinoyatsu LB 0.443",
+    "lastRunTime": "2026-10-15T04:31:18.46Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "thivnti/casmi-2026-msms-spectra-eda-rdkit-starter",
+    "title": "CASMI 2026 MSMS Spectra EDA RDKit Starter",
+    "lastRunTime": "2026-10-15T04:29:56.437Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rushikeshpundkar/notebook9ef1cf0c62",
+    "title": "notebook9ef1cf0c62",
+    "lastRunTime": "2026-10-14T23:41:57.107Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "stupidxie/casmi26-pi-rsi-autoresearch",
+    "title": "CASMI26 pi-rsi autoresearch",
+    "lastRunTime": "2026-10-14T19:55:18.84Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "haideptry/casmi26-evidence-gap-offline-cv-diagnostic",
+    "title": "casmi26 evidence gap offline cv diagnostic",
+    "lastRunTime": "2026-10-14T14:51:37.137Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v380-sovereign-sodiated-horizon",
+    "title": "CASMI26 Apex v380 Sovereign Sodiated Horizon",
+    "lastRunTime": "2026-10-14T13:18:30.77Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v410-grand-sovereign-meta-consensus",
+    "title": "CASMI26 Apex v410 Grand Sovereign Meta-Consensus",
+    "lastRunTime": "2026-10-14T13:10:22.057Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "evgendvorkin/enveda-casmi-2026",
+    "title": "Enveda CASMI 2026",
+    "lastRunTime": "2026-10-14T12:44:30.96Z",
+    "totalVotes": 180,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "aryanawasthiteykik/casmi26-gpu-fingerprint-fragmentation-ranker",
+    "title": "CASMI26: GPU Fingerprint + Fragmentation Ranker",
+    "lastRunTime": "2026-10-14T11:46:07.727Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v400-sovereign-hardneg-horizon",
+    "title": "CASMI26 Apex v400 Sovereign Hardneg Horizon",
+    "lastRunTime": "2026-10-14T11:16:53.573Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v390-sovereign-dual-synthesis",
+    "title": "CASMI26 Apex v390 Sovereign Dual Synthesis",
+    "lastRunTime": "2026-10-14T11:15:24.357Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "yanglema/casmi-2026-from-peaks-to-molecules-visual-guide",
+    "title": "CASMI 2026: From Peaks to Molecules \u2014 Visual Guide",
+    "lastRunTime": "2026-10-14T10:56:08.357Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v370-sovereign-multi-ce-horizon",
+    "title": "CASMI26 Apex v370 Sovereign Multi-CE Horizon",
+    "lastRunTime": "2026-10-14T10:54:56.383Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "lavinwins/enveda-casmi-gold",
+    "title": "Enveda-Casmi Gold \u2b50\u2b50",
+    "lastRunTime": "2026-10-14T09:54:21.72Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "saddamaditya/casmi26-dual-band-massbank-iceberg-sota",
+    "title": "CASMI26 Dual-Band MassBank + ICEBERG SOTA",
+    "lastRunTime": "2026-10-14T08:21:40.8Z",
+    "totalVotes": 61,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "nursrijan/casm26-e006-with-metfrag-lite-re-rank",
+    "title": "CASM26 | E006 with MetFrag-lite re-rank",
+    "lastRunTime": "2026-10-14T06:33:02.203Z",
+    "totalVotes": 12,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "ahmedberatozer/casmi26-v8b-native-treatment",
+    "title": "casmi26-v8b-native-treatment",
+    "lastRunTime": "2026-10-14T06:32:27.98Z",
+    "totalVotes": 2,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "ahmedberatozer/casmi26-v7e-e006-glmultice",
+    "title": "casmi26-v7e-e006-glmultice",
+    "lastRunTime": "2026-10-14T06:29:29.8Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "lszlst/casmi26-p1-offset",
+    "title": "casmi26-p1-offset",
+    "lastRunTime": "2026-10-14T05:45:09.713Z",
+    "totalVotes": 3,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "sibamsamanta07/casmi26-v7c-e006-fraggap",
+    "title": "casmi26-v7c-e006-fraggap",
+    "lastRunTime": "2026-10-14T05:38:38.463Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "shafiquatali/casmi26-e007-pub",
+    "title": "CASMI26 E007 Pub",
+    "lastRunTime": "2026-10-14T03:23:24.603Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "saddamaditya/casmi-2026-timstof-spectra-eda-metric-guide",
+    "title": "CASMI 2026: timsTOF Spectra EDA & Metric Guide",
+    "lastRunTime": "2026-10-14T03:07:31.123Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "saddamaditya/casmi26-forensic-lineage-and-traps-analysis",
+    "title": "casmi26 forensic lineage and traps analysis",
+    "lastRunTime": "2026-10-14T02:54:04.09Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "drpatrickchan/casmi26-v7d-e007-na-glacier",
+    "title": "CASMI26 v7d E007 Na GLACIER",
+    "lastRunTime": "2026-10-13T23:45:46.49Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "aryanawasthiteykik/casmi26-gpu-training-fingerprint-v3-ranker",
+    "title": "CASMI26: GPU Training - Fingerprint v3 + Ranker",
+    "lastRunTime": "2026-10-13T18:32:18.813Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "antriksharya/casmi26-lb-0-443-v7c-engine-2-rank-2-insert",
+    "title": "CASMI26 | LB 0.443 | v7c + engine-2 rank-2 insert ",
+    "lastRunTime": "2026-10-13T16:45:47.557Z",
+    "totalVotes": 17,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "varshithakolupuri/casmi26-real-scores-and-what-top-notebooks-use",
+    "title": "CASMI26: Real Scores and What Top Notebooks Use",
+    "lastRunTime": "2026-10-13T16:24:51.393Z",
+    "totalVotes": 3,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v360-grand-sovereign-meta-consensus",
+    "title": "CASMI26 Apex v360 Grand Sovereign Meta-Consensus",
+    "lastRunTime": "2026-10-13T15:23:22.917Z",
+    "totalVotes": 2,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v350-sovereign-dualband",
+    "title": "CASMI26 Apex v350 Sovereign DualBand",
+    "lastRunTime": "2026-10-13T15:18:36.093Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v340-sovereign-zenith-horizon",
+    "title": "CASMI26 Apex v340 Sovereign Zenith-Horizon",
+    "lastRunTime": "2026-10-13T14:56:01.717Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v330-sovereign-vanguard-fraggap",
+    "title": "CASMI26 Apex v330 Sovereign Vanguard-FragGap",
+    "lastRunTime": "2026-10-13T14:55:59.67Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "kanaluvu/molecule-from-spectra",
+    "title": "molecule_from_spectra",
+    "lastRunTime": "2026-10-13T13:58:18.41Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "nagatakengo/study-casmi",
+    "title": "study_casmi",
+    "lastRunTime": "2026-10-13T11:51:18.983Z",
+    "totalVotes": 3,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "antriksharya/casmi26-e006-e2rank2",
+    "title": "casmi26-e006-e2rank2",
+    "lastRunTime": "2026-10-13T10:24:43.663Z",
+    "totalVotes": 24,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "lakshyamewara0025/casmi26-data-tour-libraries-adducts-spectra",
+    "title": "CASMI26 Data Tour: Libraries, Adducts, Spectra",
+    "lastRunTime": "2026-10-13T09:08:33.737Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "arman1o1/enveda-casmi26-molecule-id-v14-apex",
+    "title": "Enveda CASMI26 Molecule ID V14 Apex",
+    "lastRunTime": "2026-10-13T08:02:14.463Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "matterhorn3838/evenda-casmi-2026-nextgen",
+    "title": "Evenda CASMI 2026 NextGen",
+    "lastRunTime": "2026-10-13T07:03:09.117Z",
+    "totalVotes": 8,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "lakshyamewara0025/casmi26-metric-explained-tautomers-stereo-traps",
+    "title": "CASMI26 Metric Explained: Tautomers, Stereo, Traps",
+    "lastRunTime": "2026-10-13T06:04:38.28Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "marcofpereira/casmi26-h112-adocao-yuki16-cosine",
+    "title": "casmi26 h112 adocao yuki16 cosine",
+    "lastRunTime": "2026-10-13T01:22:41.967Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "shafiquatali/casmi26-pub-dreams",
+    "title": "CASMI26 Pub Dreams",
+    "lastRunTime": "2026-10-12T20:22:05.627Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "omn1v3r53/omniverse-enveda-casmi-molecule-id-sota",
+    "title": "Omniverse Enveda CASMI Molecule ID SOTA",
+    "lastRunTime": "2026-10-12T20:20:03.243Z",
+    "totalVotes": 2,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "ahmedberatozer/casmi26-v7c-e006-fraggap",
+    "title": "casmi26-v7c-e006-fraggap",
+    "lastRunTime": "2026-10-12T18:10:26.027Z",
+    "totalVotes": 66,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "prvsiyan/analog-propagation-casmi-2026-baseline",
+    "title": "Analog Propagation - CASMI 2026 baseline",
+    "lastRunTime": "2026-10-12T16:45:42.257Z",
+    "totalVotes": 139,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v320-grand-sovereign-consensus",
+    "title": "CASMI26 Apex v320 Grand Sovereign Consensus",
+    "lastRunTime": "2026-10-12T15:43:31.43Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "nursrijan/casmi26-e008-dual-band-massbank-ice-fallback-sota",
+    "title": "CASMI26 E008 Dual Band MassBank ICE Fallback SOTA",
+    "lastRunTime": "2026-10-12T15:25:17.28Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v310-sovereign-resonance",
+    "title": "CASMI26 Apex v310 Sovereign Resonance",
+    "lastRunTime": "2026-10-12T14:58:00.153Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v300-sovereign-horizon",
+    "title": "CASMI26 Apex v300 Sovereign Horizon",
+    "lastRunTime": "2026-10-12T14:54:18.47Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "flexonafft/casmi26-public-baseline-adaptation-experiments",
+    "title": "CASMI26: Public Baseline Adaptation & Experiments",
+    "lastRunTime": "2026-10-12T13:56:21.393Z",
+    "totalVotes": 126,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "shafiquatali/casmi26-v17-fpnet-expanded-cpu",
+    "title": "CASMI26 V17 FPNet Expanded (CPU)",
+    "lastRunTime": "2026-10-12T13:46:46.45Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "ahmedberatozer/casmi26-v7a-e006-port",
+    "title": "casmi26-v7a-e006-port",
+    "lastRunTime": "2026-10-12T12:09:00.073Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "nikitabakutov/casmi26-e1b-w015-icefb",
+    "title": "casmi26-e1b-w015-icefb",
+    "lastRunTime": "2026-10-12T10:34:33.543Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v290-sovereign-zenith",
+    "title": "CASMI26 Apex v290 Sovereign Zenith",
+    "lastRunTime": "2026-10-12T10:18:53.667Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "shafiquatali/casmi26-e006-pub",
+    "title": "CASMI26 E006 Pub",
+    "lastRunTime": "2026-10-12T08:55:11.96Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "shawncsx/casmi26-sota-dreams-champion-fork",
+    "title": "casmi26-sota-dreams-champion-fork",
+    "lastRunTime": "2026-10-12T07:42:00.547Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rushikeshpundkar/notebookc79700753b",
+    "title": "notebookc79700753b",
+    "lastRunTime": "2026-10-12T06:27:20.167Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "aryanawasthiteykik/casmi26-the-popularity-prior-trap",
+    "title": "CASMI26: The Popularity-Prior Trap",
+    "lastRunTime": "2026-10-12T04:23:10.827Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "aryanawasthiteykik/casmi26-fingerprint-model-v2-morgan-maccs",
+    "title": "CASMI26: Fingerprint Model v2 (Morgan+MACCS)",
+    "lastRunTime": "2026-10-12T04:22:52.4Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v280-sovereign-vanguard",
+    "title": "CASMI26 Apex v280 Sovereign Vanguard",
+    "lastRunTime": "2026-10-12T04:16:12.627Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "wyananwyanan/channel-4-online",
+    "title": "Channel 4 online",
+    "lastRunTime": "2026-10-12T03:35:11.567Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "guhongbin/casmi26-v439-forknur",
+    "title": "casmi26 v439 forknur",
+    "lastRunTime": "2026-10-12T03:17:54.5Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "naijilu/enveda-v17-fpnet-980k-expanded-pool",
+    "title": "Enveda v17: FPNet + 980K Expanded Pool",
+    "lastRunTime": "2026-10-12T02:41:21.73Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "amanatar/casmi26-v18",
+    "title": "casmi26 v18 ",
+    "lastRunTime": "2026-10-11T18:51:27.57Z",
+    "totalVotes": 28,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "nursrijan/casmi26-w-e006-window-40-ice-fallback",
+    "title": "CASMI26 w/ E006 Window 40 ICE Fallback",
+    "lastRunTime": "2026-10-11T17:37:02.803Z",
+    "totalVotes": 19,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "nursrijan/casmi26-e007-window-80-ice-fallback-sota",
+    "title": "CASMI26 E007 Window 80 ICE Fallback SOTA",
+    "lastRunTime": "2026-10-11T16:47:59.327Z",
+    "totalVotes": 26,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "aryanawasthiteykik/casmi26-finding-molecules-not-in-any-library",
+    "title": "CASMI26: Finding Molecules Not in Any Library",
+    "lastRunTime": "2026-10-11T16:15:56.88Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "aryanawasthiteykik/casmi26-validation-that-behaves-like-the-test",
+    "title": "CASMI26: Validation That Behaves Like the Test",
+    "lastRunTime": "2026-10-11T13:52:37.097Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "mohammadhmozafary/casmi-2026-domain-knowledge-for-non-chemists",
+    "title": "CASMI 2026- Domain Knowledge for Non-Chemists \u2697\ufe0f",
+    "lastRunTime": "2026-10-11T13:31:51.257Z",
+    "totalVotes": 24,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "mohammadhmozafary/casmi-2026-eda-you-need",
+    "title": "CASMI 2026- EDA you need \ud83d\udd75\ufe0f",
+    "lastRunTime": "2026-10-11T13:27:34.06Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "fabioolival/casmi26-seyit-fusion-0399",
+    "title": "casmi26-seyit-fusion-0399",
+    "lastRunTime": "2026-10-11T09:45:49.64Z",
+    "totalVotes": 1,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "shogomiyawaki/casmi26-c002-own-nopop",
+    "title": "casmi26 c002 own nopop",
+    "lastRunTime": "2026-10-11T09:03:40.82Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "shogomiyawaki/casmi26-c001-own",
+    "title": "casmi26 c001 own",
+    "lastRunTime": "2026-10-11T08:43:03.29Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "qaq7864/casmi26-v45-legitimate-pubchem-main-engine-join",
+    "title": "CASMI26 V45 legitimate PubChem main-engine join",
+    "lastRunTime": "2026-10-11T08:31:38.19Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "yangkuangou/casmi26-one-molecule-many-spectra",
+    "title": "CASMI26 One Molecule Many Spectra",
+    "lastRunTime": "2026-10-11T07:06:12.983Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v270-grand-sovereign-consensus",
+    "title": "CASMI26 Apex v270 Grand Sovereign Consensus",
+    "lastRunTime": "2026-10-11T05:51:39.343Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "capwitf/casmi26-github-robust-retrieval",
+    "title": "CASMI26 GitHub Robust Retrieval",
+    "lastRunTime": "2026-10-11T03:49:05.953Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "naijilu/enveda-v16-mass-error-v7-mass",
+    "title": "Enveda v16 mass error (v7+mass)",
+    "lastRunTime": "2026-10-11T02:59:26.247Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "naijilu/enveda-v15-fpnet-6feat-fix",
+    "title": "Enveda v15 FPNet 6feat fix",
+    "lastRunTime": "2026-10-11T02:17:29.913Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "naijilu/enveda-v15-fpnet-6feat-v7-6",
+    "title": "Enveda v15 FPNet 6feat (v7+6)",
+    "lastRunTime": "2026-10-11T01:40:25.337Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "naijilu/enveda-v14-nomb-fpnet-analog-fix4-converter",
+    "title": "Enveda v14 noMB FPNet+analog (fix4 converter)",
+    "lastRunTime": "2026-10-10T22:44:41.703Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "rajrajak99/casmi26-apex-v260-sovereign-ascendant",
+    "title": "CASMI26 Apex v260 Sovereign Ascendant",
+    "lastRunTime": "2026-10-10T16:14:17.203Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "uninhibitedscholar/enveda-casmi-2026-w80-samanyu-flexon-lb-0-440",
+    "title": "Enveda CASMI 2026 W80 Samanyu+Flexon | LB 0.440",
+    "lastRunTime": "2026-10-10T10:27:03.98Z",
+    "totalVotes": 3,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "alexchilton/casmi26-public-lineage-0-34-to-0-44",
+    "title": "CASMI26 public lineage: 0.34 to 0.44",
+    "lastRunTime": "2026-10-10T10:21:41.11Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "naijilu/notebook7751c8d38c",
+    "title": "notebook7751c8d38c",
+    "lastRunTime": "2026-10-10T08:19:37.84Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "badboyhalo1801/fork-of-casmi26-v44-pairtail-locked-top1-2",
+    "title": "Fork of CASMI26 V44 PairTail Locked Top1.2",
+    "lastRunTime": "2026-10-10T07:37:54.133Z",
+    "totalVotes": 0,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "nursrijan/casmi26-metric-fusion-consensus-backfill",
+    "title": "CASMI26: Metric Fusion Consensus Backfill",
+    "lastRunTime": "2026-10-10T07:04:21.387Z",
+    "totalVotes": 25,
+    "currentVersionNumber": 0
+  },
+  {
+    "ref": "canqiang/casmi26-e006-window-40-ice-fallback-true",
+    "title": "CASMI26 E006 Window 40 ICE Fallback True",
+    "lastRunTime": "2026-10-10T06:52:19.067Z",
+    "totalVotes": 121,
+    "currentVersionNumber": 0
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "ref": "seyitkaangunes/casmi26-e006-pubchem-promo-rel-150-lb-0-446",
+  "title": "CASMI26 | E006 + PubChem Promo rel>150 | LB 0.446",
+  "lastRunTime": "2026-10-12T14:02:03.0146004Z",
+  "currentVersionNumber": 2,
+  "enableGpu": true,
+  "language": "python",
+  "datasetDataSources": [
+    "prvsiyan/casmi26-ranker-features",
+    "prvsiyan/casmi26-fp-models-v2",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+    "megayak/casmi26-simulated-ranker-rows",
+    "ahmedberatozer/casmi26-fpnet-full1",
+    "ahmedberatozer/casmi26-glacier",
+    "ahmedberatozer/casmi26-iceberg",
+    "ahmedberatozer/casmi26-pubchem-tier",
+    "ahmedberatozer/casmi26-v2-pool",
+    "ahmedberatozer/casmi26-v3-models",
+    "ahmedberatozer/casmi26-v4b-models",
+    "prvsiyan/chebi-lipidmaps-casmi26",
+    "prvsiyan/coconut-casmi26-candidates",
+    "hengck23/hengck23-dreams-enveda-casmi26",
+    "metric/rdkit-2026-3-3-wheel",
+    "eveliaveldrine/rdkit-wheels"
+  ]
+}

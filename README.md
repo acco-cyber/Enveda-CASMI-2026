@@ -88,3 +88,13 @@ CPU E006 v2 receipt57216989 completed with public **0.433**; GPU best remains **
 Independently reviewed CPU_ALPHA075 version1 is running: https://www.kaggle.com/code/gwey1025/casmi26-cpu-e006-engine2-alpha075 (kernel138840608). It appends one final RRF weight experiment, Engine2 alpha0.6→0.75, with all35 parent cells unchanged. Exact same-run E006 reconstruction is mandatory before treatment; changed ranked official identities, chemistry/keyset/hash and inherited stage health must pass before submission. No added GPU allocation, inference pass or simulator pass. No score gain is claimed; top1 may change and score may worsen. Do not duplicate this pending run.
 
 See evidence/20261015_2000/handoff.md and updated run-ledger. Rank1 remains unachieved; dataset version resolution and hidden-test generalization remain uncertain.
+
+## Daily quota completed (2026-10-15 14:03 UTC)
+
+CPU window30 receipt57222276 completed **0.433**, matching CPU control. GPU E006 remains best **0.440**. Window80 is pending.
+
+CPU_ALPHA075 exactversion1 completed and passed independent acceptance: exact E006 same-run reconstruction;12official ranked rows changed,0top1changes;388visible placeholders unchanged; bothCPU ICE/GL stages healthy with0predictionfailures. Paired hashes and schema/keyset checks passed. Core smoke2145.56s plus overlay19.87s; full export2210.51s. NoGPUallocation. These smoke timings are not hidden-test timings.
+
+Submitted https://www.kaggle.com/code/gwey1025/casmi26-cpu-e006-engine2-alpha075 version1, receipt **57233074**, pending. Post-submit limit confirms **5used /0remaining**,18total submissions. No further submissions today. Use the notebook hidden rerun, never the visible placeholder CSV directly.
+
+Evidence and acceptance: evidence/20261015_2300. Next reconcile two pending scores, then choose an independently documented lowGPU hypothesis; rank1 remains unachieved. Keep this existing repository for all further versions.

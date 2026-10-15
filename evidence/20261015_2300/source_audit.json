@@ -1,0 +1,55 @@
+{
+  "method": "Authenticated read-only Kaggle kernels list/pull; score claims distinguished from measured account submissions",
+  "references": [
+    {
+      "ref": "flexonafft/casmi26-closing-the-evidence-gap",
+      "version": 19,
+      "sha256": "ea35e22eb0b0832ec6ffa9351f7e4d963e9db632e9bd9cfc0f609dba415cdde4",
+      "executed": false,
+      "pull_metadata_lastRunTime_utc": "2026-10-12T14:01:59.1735904Z",
+      "index_lastRunTime_utc": "2026-10-15T11:23:07.403Z"
+    },
+    {
+      "ref": "juna1013/casmi-2026-train-submission",
+      "version": 15,
+      "sha256": "90b4ba1484c0c6e6629a4187449ff5edceb54091558facac305385ee7ecd00b5",
+      "executed": false,
+      "pull_metadata_lastRunTime_utc": "2026-10-12T14:02:02.9732661Z",
+      "index_lastRunTime_utc": "2026-10-15T14:00:26.33Z"
+    },
+    {
+      "ref": "rajrajak99/casmi26-apex-v420-sovereign-rank2-vanguard",
+      "version": 2,
+      "sha256": "d29cb589b974eb3b31898a5ebc1448a9390f8007df2237b1ae1dfe4546b5fa13",
+      "executed": false,
+      "pull_metadata_lastRunTime_utc": "2026-10-12T14:01:59.1931695Z",
+      "index_lastRunTime_utc": "2026-10-15T11:27:45.343Z"
+    },
+    {
+      "ref": "rajrajak99/casmi26-apex-v440-sovereign-multi-ce-rank2",
+      "version": 1,
+      "sha256": "6345f02a0c3a9ff80a40c7bc624342aa95349a2b211048a3193e96e3f91604f6",
+      "executed": false,
+      "pull_metadata_lastRunTime_utc": "2026-10-12T14:01:59.2076474Z",
+      "index_lastRunTime_utc": "2026-10-15T13:35:02.257Z"
+    },
+    {
+      "ref": "rajrajak99/casmi26-apex-v450-sovereign-sodiated-rank2",
+      "version": 1,
+      "sha256": "d3b79f27f26f03d08d8399387b47a61cadafb2c36542691c0f5627a675a0b145",
+      "executed": false,
+      "pull_metadata_lastRunTime_utc": "2026-10-12T14:01:59.1643116Z",
+      "index_lastRunTime_utc": "2026-10-15T13:35:19.643Z"
+    },
+    {
+      "ref": "seyitkaangunes/casmi26-e006-pubchem-promo-rel-150-lb-0-446",
+      "version": 2,
+      "sha256": "ecc8f7aff23497db9819087c3d4177b23667cdea912487aff702aaa85b66419a",
+      "executed": false,
+      "pull_metadata_lastRunTime_utc": "2026-10-12T14:02:03.0146004Z",
+      "index_lastRunTime_utc": "2026-10-15T10:51:08.03Z"
+    }
+  ],
+  "score_limitation": "Pull metadata/source contain no independently verified new public score; all new score numbers below are author claims or targets",
+  "timestamp_limitation": "Index timestamps2026-10-15 differ from pull metadata lastRunTime2026-10-12; no fresh measured result inferred."
+}
