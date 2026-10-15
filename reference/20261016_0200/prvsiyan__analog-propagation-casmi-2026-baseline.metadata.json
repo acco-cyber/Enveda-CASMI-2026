@@ -1,0 +1,18 @@
+{
+  "ref": "prvsiyan/analog-propagation-casmi-2026-baseline",
+  "title": "Analog Propagation - CASMI 2026 baseline",
+  "currentVersionNumber": 35,
+  "lastRunTime": "2026-10-12T16:59:27.3811026Z",
+  "enableGpu": true,
+  "datasetDataSources": [
+    "",
+    "",
+    "prvsiyan/casmi26-ranker-features",
+    "prvsiyan/casmi26-fp-models-v2",
+    "prvsiyan/casmi26-forward-reference-stack",
+    "prvsiyan/coconut-casmi26-candidates",
+    "prvsiyan/pubchem-popularity-counts",
+    "prvsiyan/pubchem-npformula-massindex",
+    "prvsiyan/rdkit-wheel-offline"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-15T14:03:00Z",
+  "checked_utc": "2026-10-15T16:58:00Z",
   "repository": "acco-cyber/Enveda-CASMI-2026",
   "account": "gwey1025",
   "best_public": 0.44,
@@ -30,8 +30,8 @@
       "ref": 57222283,
       "kernel": "gwey1025/casmi26-cpu-window80",
       "version": 1,
-      "status": "pending",
-      "score": null
+      "status": "complete",
+      "score": 0.431
     },
     {
       "ref": 57233074,
@@ -117,7 +117,7 @@
       "submit_receipt": 57233074
     }
   ],
-  "next_action": "Daily quota5/5 reached. Reconcile Alpha07557233074 and window8057222283 grading. Preserve GPU best0.440; CPU control/window30 both0.433. No further submissions until live limit available. Research next lowGPU candidates using verified provenance and meaningful same-run comparisons. Do not relaunch already completed jobs; rank1 goal remains unachieved.",
+  "next_action": "Alpha07557233074 remains pending; window80 completed0.431, window30 andCPUcontrol0.433, GPUbest0.440. Dailyquota5/5still exhausted (KSTdate changed but API resetnotyet). Do not duplicate submissions or run further blind GPU/CPU trials. Compare existing CPU/GPU candidate snapshots without inference and prepare isolated PubChemrel150 with correct provenance/checks before next authorized available slot. Rank1notachieved.",
   "gpu_quota_exhausted": true,
   "gpu_refresh_utc": "2026-10-17T00:00:00Z",
   "available_slots_at_last_check": 0

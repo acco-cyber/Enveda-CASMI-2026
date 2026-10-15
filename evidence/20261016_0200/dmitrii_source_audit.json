@@ -1,0 +1,9 @@
+{
+  "ref": "dmitriigluzdov/casmi-26-from-spectra-to-structures",
+  "version": 49,
+  "source_sha256": "646626ce028774af76dfe5addf0320e547e7f90408b493713efb487578e9201e",
+  "pull_metadata_lastRunTime": "2026-10-12T16:59:13.4654455Z",
+  "index_lastRunTime": "2026-10-15T15:05:01.4Z",
+  "execution": "not executed",
+  "score_evidence": "author-reported notebook text only; no independent leaderboard receipt"
+}

@@ -98,3 +98,11 @@ CPU_ALPHA075 exactversion1 completed and passed independent acceptance: exact E0
 Submitted https://www.kaggle.com/code/gwey1025/casmi26-cpu-e006-engine2-alpha075 version1, receipt **57233074**, pending. Post-submit limit confirms **5used /0remaining**,18total submissions. No further submissions today. Use the notebook hidden rerun, never the visible placeholder CSV directly.
 
 Evidence and acceptance: evidence/20261015_2300. Next reconcile two pending scores, then choose an independently documented lowGPU hypothesis; rank1 remains unachieved. Keep this existing repository for all further versions.
+
+## Window80 result and zero-inference comparison (2026-10-16 KST)
+
+Window80 receipt57222283 completed **0.431**, below CPU control/window30 **0.433**. GPU best remains **0.440**. Alpha07557233074 is pending. Live daily limit still5used/0available despite KSTdatechange. No new notebook runs, submissions or GPU allocation in this check.
+
+Downloaded exact GPUv1/CPUv2 candidate snapshots and verified both original hashes. Engine2 lists differ8/12visiblemolecules; PubChem ranked lists match despite numeric record differences. Some downstream differences remain despite identical saved upstream lists. These smoke observations do not establish the hidden0.007score-gap cause. See research/cpu-gpu-comparison-plan.md.
+
+Prepared a threshold-only PubChemrel250→150 specification with paired downstream replay, truthful derivative provenance and mandatory retained integrity/health checks; not launched or scored. Fresh DmitriiV49 source adoptsrel150 but has no measured V49 score; external results remain authorclaims. See current source audit and evidence/20261016_0200. Preserve best0.440 and reconcile pending score before further trials.

@@ -1,0 +1,13 @@
+{
+  "ref": "dmitriigluzdov/casmi-26-from-spectra-to-structures",
+  "title": "CASMI 26: From Spectra to Structures",
+  "currentVersionNumber": 49,
+  "lastRunTime": "2026-10-12T16:59:13.4654455Z",
+  "enableGpu": true,
+  "datasetDataSources": [
+    "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+    "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+    "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+    "dmitriigluzdov/casmi26-pubchem-popularity-prior"
+  ]
+}
