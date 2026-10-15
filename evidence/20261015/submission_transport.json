@@ -1,0 +1,7 @@
+{
+  "first_request_status": 400,
+  "first_error": "output FileName required; JSON transport not bound",
+  "second_request": "form encoded official fields",
+  "second_receipt": 57202348,
+  "automatic_blind_retry": false
+}

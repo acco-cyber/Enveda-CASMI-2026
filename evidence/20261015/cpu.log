@@ -1,0 +1,143 @@
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+CPU_E006: all model and simulator inference uses CPU; execution budget 8h30m
+v17 popularity prior 0.25 200 /kaggle/input/datasets/dmitriigluzdov/casmi26-pubchem-popularity-prior
+rdkit wheel: ['/kaggle/input/datasets/metric/rdkit-2026-3-3-wheel/rdkit-2026.3.3-cp312-cp312-manylinux_2_28_x86_64.whl']
+ 
+rdkit 2026.03.3
+V4CODE /kaggle/input/datasets/ahmedberatozer/casmi26-v4b-models/code 
+V4MOD /kaggle/input/datasets/ahmedberatozer/casmi26-v4b-models 
+V3CODE /kaggle/input/datasets/ahmedberatozer/casmi26-v3-models/code 
+POOL /kaggle/input/datasets/ahmedberatozer/casmi26-v2-pool 
+PC /kaggle/input/datasets/ahmedberatozer/casmi26-pubchem-tier 
+COMP /kaggle/input/competitions/enveda-CASMI26-molecule-id-mass-spectra
+64 files match MANIFEST.json; families ['derivation', 'frag2', 'analog_struct', 'model_views', 'fragnet'] 22s
+Simulator RDKit wheel: /kaggle/input/datasets/ahmedberatozer/casmi26-iceberg/wheels/rdkit-2025.3.6-cp312-cp312-manylinux_2_28_x86_64.whl.ice
+E004_PREFLIGHT {"runtime_input_path": "/kaggle/input/competitions/enveda-CASMI26-molecule-id-mass-spectra", "python": "3.12.13", "rdkit": "2026.03.3", "gpu": null}
+RERUN False | sig 654e030e4173780e945252b4a5adf70b | COMP /kaggle/working/smoke_comp | ICE_BUDGET 300
+engine fp models ['/kaggle/input/datasets/prvsiyan/casmi26-fp-models-v2/fp_merged_m1.pt', '/kaggle/input/datasets/prvsiyan/casmi26-fp-models-v2/fp_single_s2.pt']
+[    66s] library mass index: formula 100.0%, timsTOF rows 45.5%
+[    66s] library 2,539,608 spectra
+[    71s] + ChEBI/LIPID MAPS 62,744 new structures
+[    72s] COCONUT 499,133; training structures to fingerprint 275,810
+[   381s] pool 774,943 structures
+[   402s] index: 2,539,608 library rows; representatives 275,810
+[   405s] fp models: 1 single + 1 merged on cpu
+[   405s] test: 41 spectra / 12 molecules
+[   422s]   channels 0/12
+[   477s] MetFrag-lite on 1,811 candidates
+[   639s] our ranker: 4 GBMs on 399,790 rows x 51 features
+[   708s] prvsiyan ranker: 8 GBMs on 142,762 rows x 31 features
+[   721s] submissions ready
+engine lists 12 734s
+
+
+engine lists 12 743s
+v17 patch appended to probe_core2: True
+logits for 12 molecules 14s
+  pubchem 12/12 115s
+pc_runner done 12 115s
+
+
+pubchem lists 12 897s
+rg 0: 131072 spectra, 8056471 peaks, total peaks 8056471, 11s
+rg 1: 131072 spectra, 7943857 peaks, total peaks 16000328, 16s
+rg 2: 131072 spectra, 7940932 peaks, total peaks 23941260, 21s
+rg 3: 131072 spectra, 7902093 peaks, total peaks 31843353, 26s
+rg 4: 131072 spectra, 7987759 peaks, total peaks 39831112, 31s
+rg 5: 131072 spectra, 7932300 peaks, total peaks 47763412, 36s
+rg 6: 131072 spectra, 7917009 peaks, total peaks 55680421, 41s
+rg 7: 131072 spectra, 7907716 peaks, total peaks 63588137, 46s
+rg 8: 131072 spectra, 8532604 peaks, total peaks 72120741, 50s
+rg 9: 131072 spectra, 11067599 peaks, total peaks 83188340, 54s
+rg 10: 131072 spectra, 6944108 peaks, total peaks 90132448, 58s
+rg 11: 131072 spectra, 11047607 peaks, total peaks 101180055, 63s
+rg 12: 131072 spectra, 4306455 peaks, total peaks 105486510, 66s
+rg 13: 131072 spectra, 4384884 peaks, total peaks 109871394, 69s
+rg 14: 131072 spectra, 4353287 peaks, total peaks 114224681, 72s
+rg 15: 131072 spectra, 4390836 peaks, total peaks 118615517, 75s
+rg 16: 131072 spectra, 3587033 peaks, total peaks 122202550, 78s
+rg 17: 131072 spectra, 3264195 peaks, total peaks 125466745, 81s
+rg 18: 131072 spectra, 3297555 peaks, total peaks 128764300, 84s
+rg 19: 48056 spectra, 4310906 peaks, total peaks 133075206, 85s
+rg 20: 1184 spectra, 152902 peaks, total peaks 133228108, 85s
+spectra 2539608 peaks 133228108 sid<0: 0 nm nan: 339
+done 88s
+casmi from /kaggle/input/datasets/ahmedberatozer/casmi26-v4b-models/code/casmi/__init__.py
+cache built 985s
+[Library] 2,539,608 spectra, 275,810 structures, 133,228,108 peaks (1.7s)
+[Pool] 710,701 structures, nbits 10226, frag yes (10.7s)
+engine FP bank: /kaggle/input/datasets/ahmedberatozer/casmi26-fpnet-full1/fpnet_full1.pt
+[Engine] reps 445,686 (0.7s)
+derivation prior self-test mismatches: 0
+engine ready; ranker features 160 boosters 4 1019s
+v19 pool popularity re-rank, mu 0.15 pool 710701
+  12/12 molecules 1102s
+errors 0 | popularity re-ranked lists 12
+ICE_UNION: engine candidates added to ICE input: 773
+ICE input molecules 12 candidates 773 1103s
+[claw] site preseed rc 0 
+[claw] site ready; substituted ['rdkit-2025.3.6-cp312-cp312-manylinux_2_28_x86_64.whl.ice'] -> ['rdkit-2025.3.6-cp312-cp312-manylinux_2_28_x86_64.whl.ice']
+[ice     0.3s] stubbed (absent) modules: ['pygmtools']
+[ice    35.4s] ms_pred tautomer mode v2 cache /tmp/ice_ms_pred_cache
+[ice    36.1s] model loaded on cpu (rdkit 2025.03.6, torch 2.10.0+cu128, numba True)
+/kaggle/input/datasets/ahmedberatozer/casmi26-iceberg/src/ms_pred/nn_utils/nn_utils.py:1175: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /pytorch/aten/src/ATen/SparseCsrTensorImpl.cpp:49.)
+  out = out @ adj
+[ice   303.5s] status budget {'n_mols': 12, 'n_mols_covered': 11, 'n_mols_scored': 0, 'n_cands': 773, 'n_scored': 0}
+
+{'status': 'budget', 'n_mols': 12, 'n_mols_covered': 11, 'n_mols_scored': 0, 'n_cands': 773, 'n_scored': 0, 'seconds': 303.46, 'pred_per_s': 1.63, 'device': 'cpu', 'rdkit': '2025.03.6', 'max_mem_gb': None}
+ICE meta {"status": "budget", "n_mols": 12, "n_mols_scored": 0, "n_mols_covered": 11, "n_cands": 773, "n_scored": 0, "errors": [], "rdkit": "2025.03.6", "torch": "2.10.0+cu128", "device": "cpu", "t_load": 36.14, "n_pred": 420, "n_pred_fail": 0, "t_pred": 257.98, "n_bad_smiles": 0, "pred_per_s": 1.63, "seconds": 303.46, "log_tail": ["[ice     0.3s] stubbed (absent) modules: ['pygmtools']", "[ice    35.4s] ms_pred tautomer mode v2 cache /tmp/ice_ms_pred_cache", "[ice    36.1s] model loaded on cpu (rdkit 2025.03.6, torch 2.10.0+cu128, numba True)"]}
+v29 GLACIER [M+H]+ only: molecules 11 of 12
+[gl     0.1s] site ready (marker matches): /kaggle/working/ice_site
+[gl     0.2s] stubbed (absent) modules: ['pygmtools']
+[gl    21.4s] GLACIER loaded: 15,108,154 params 
+[gl    21.4s] model loaded on cpu (rdkit 2025.03.6, torch 2.10.0+cu128, numba True, threads 2)
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:531: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. We recommend specifying layout=torch.jagged when constructing a nested tensor, as this layout receives active development, has better operator coverage, and works with torch.compile. (Triggered internally at /pytorch/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  output = torch._nested_tensor_from_mask(
+[gl   188.1s] chunk: 11 mols 1527 jobs 159.1s (11/11 covered mols scored)
+[gl   188.1s] status ok {'n_mols': 11, 'n_mols_covered': 11, 'n_mols_scored': 11, 'n_cands': 755, 'n_scored': 755}
+
+{'status': 'ok', 'n_mols': 11, 'n_mols_covered': 11, 'n_mols_scored': 11, 'n_cands': 755, 'n_scored': 755, 'seconds': 188.08, 'pred_per_s': 9.65, 'device': 'cpu', 'rdkit': '2025.03.6', 'max_mem_gb': None}
+GL meta {"model": "glacier", "status": "ok", "n_mols": 11, "n_mols_scored": 11, "n_mols_covered": 11, "n_cands": 755, "n_scored": 755, "errors": [], "rdkit": "2025.03.6", "torch": "2.10.0+cu128", "device": "cpu", "t_load": 21.44, "n_pred": 1527, "n_pred_fail": 0, "n_feat_fail": 0, "t_pred": 158.19, "n_bad_smiles": 0, "pred_per_s": 9.65, "bs_final": 32, "seconds": 188.08, "log_tail": ["[gl     0.1s] site ready (marker matches): /kaggle/working/ice_site", "[gl     0.2s] stubbed (absent) modules: ['pygmtools']", "[gl    21.4s] GLACIER loaded: 15,108,154 params ", "[gl    21.4s] model loaded on cpu (rdkit 2025.03.6, torch 2.10.0+cu128, numba True, threads 2)", "[gl   188.1s] chunk: 11 mols 1527 jobs 159.1s (11/11 covered mols scored)"]}
+ICE rerank stats {'molecules': 0, 'changed_top25': 0, 'changed_top1': 0} 1605s
+GL rerank stats {'molecules': 0, 'changed_vs_ice_top25': 0, 'changed_vs_ice_top1': 0} 1605s
+merge/promote self-test OK
+merge stats {'untouched': 12, 'gentle': 0, 'aggressive': 0, 'no_pc': 0, 'promoted': 0}
+CLAW STAGE HEALTH | ICE NOT RUN | GL NOT RUN
+CLAW STAGE SCORED | ice=0 gl=11
+done (400, 2) 1605s
+V1 inference complete; applying separately audited final pass next.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [31]":
+---------------------------------------------------------------------------
+AssertionError                            Traceback (most recent call last)
+/tmp/ipykernel_16/222356150.py in <cell line: 0>()
+     16     else:
+     17         _stage_meta[_stage] = {'status': 'missing'}
+---> 18 assert _stage_meta['ice'].get('status') == 'ok', _stage_meta['ice']
+     19 if (te.adduct == '[M+H]+').any():
+     20     assert _stage_meta['glacier'].get('status') == 'ok', _stage_meta['glacier']
+
+AssertionError: {'status': 'budget', 'n_mols': 12, 'n_mols_scored': 0, 'n_mols_covered': 11, 'n_cands': 773, 'n_scored': 0, 'errors': [], 'rdkit': '2025.03.6', 'torch': '2.10.0+cu128', 'device': 'cpu', 't_load': 36.14, 'n_pred': 420, 'n_pred_fail': 0, 't_pred': 257.98, 'n_bad_smiles': 0, 'pred_per_s': 1.63, 'seconds': 303.46, 'log_tail': ["[ice     0.3s] stubbed (absent) modules: ['pygmtools']", '[ice    35.4s] ms_pred tautomer mode v2 cache /tmp/ice_ms_pred_cache', '[ice    36.1s] model loaded on cpu (rdkit 2025.03.6, torch 2.10.0+cu128, numba True)']}
+
+/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+  cells[i][c] = re.sub('\\\\\|', '|', cell)
+/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+  text = re.sub(r'_', '\_', text) # Escape underscores in display text
+[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+[NbConvertApp] Writing 205432 bytes to __notebook__.ipynb
+[NbConvertApp] Converting notebook __notebook__.ipynb to html
+[NbConvertApp] Writing 800958 bytes to __results__.html

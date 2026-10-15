@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "rows": 400,
+  "input_keyset_exact": true,
+  "sha256": "a5f021a6d43963eb681a478d2e356478e19c068b02e68d060084d5bd453f1eab",
+  "runtime_seconds": 1048.7,
+  "validation_scope": "Visible smoke12molecules plus388placeholder rows, no generalization score. Hidden rerun recomputes all spectra.",
+  "kernel": "gwey1025/casmi26-e006-control-efficient",
+  "version": 1,
+  "simulator_health": "ICE/GL ok"
+}

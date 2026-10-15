@@ -58,3 +58,9 @@ Authenticated index dated2026-10-14 led to inspection of three newer notebooks:
 - `flexonafft/casmi26-closing-the-evidence-gap` V15: latest CPU fragment-median overlay, >=3 informative spectra, >=2 discriminative peaks, candidate groups2–8,40-bond cap,lambda1.25,900s hidden budget. No verified higher score.
 
 Do not infer measured improvements from titles or iteration numbers. Avoid blindly consuming remaining slots with equivalent predictions.
+
+## 2026-10-15 execution update
+
+GPU E006 version1 completed: smoke runtime1048.7seconds; full exported notebook1098.96seconds. CSV400unique input IDs/hash/1-25 candidate bounds and simulator health passed. This is12molecule smoke, not hidden validation. Submitted exactversion1: receipt57202348. Initial live limit5; after submission1used,4remaining. Score pending.
+
+CPU version1 failed strictly: ICE budget300seconds expired with0molecules scored. CPU version2 increases only smoke ICE300->1800seconds and is running; hidden budgets and strict checks retained. No score/runtime equivalence claimed. Preserve failed version and do not submit it. See evidence/20261015 and updated run-ledger.

@@ -5,7 +5,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'reference/public_v90.ipynb'
-OUTPUT = ROOT / 'notebooks/cpu-e006/cpu_e006.ipynb'
+OUTPUT = ROOT / 'notebooks/cpu-e006-v2/cpu_e006_v2.ipynb'
+SMOKE_ICE_BUDGET = 1800
 CPU_SETUP = "# CPU E006 candidate: no GPU allocation; ranking logic retained from E006.\n# CPU vs CUDA numerical equivalence and full hidden runtime are not yet verified.\nimport os as _cpu_os, signal as _cpu_signal\n_cpu_os.environ['CUDA_VISIBLE_DEVICES'] = ''\nCPU_THREADS = min(4, len(_cpu_os.sched_getaffinity(0)))\nfor _cpu_name in ('OMP_NUM_THREADS', 'MKL_NUM_THREADS', 'OPENBLAS_NUM_THREADS', 'NUMEXPR_NUM_THREADS'):\n    _cpu_os.environ[_cpu_name] = str(CPU_THREADS)\n_cpu_os.environ['NUMBA_NUM_THREADS'] = str(CPU_THREADS)\ndef _cpu_deadline(signum, frame):\n    raise SystemExit('CPU E006 exceeded the 8h30m execution budget; do not submit an incomplete run')\n_cpu_signal.signal(_cpu_signal.SIGALRM, _cpu_deadline)\n_cpu_signal.alarm(8 * 3600 + 30 * 60)\nprint('CPU_E006: all model and simulator inference uses CPU; execution budget 8h30m')\n"
 
 def patch(text):
@@ -71,9 +72,12 @@ if __name__ == '__main__':
         source = patch_cell(''.join(cell['source']))
         source = source.replace("gpu = subprocess.check_output(\n        ['nvidia-smi', '--query-gpu=name', '--format=csv,noheader'], text=True).strip()\n    assert 'T4' in gpu, gpu", "gpu = None\n    import torch\n    assert not torch.cuda.is_available(), 'CPU candidate requires CUDA to remain disabled'\n    torch.set_num_threads(CPU_THREADS)")
         source = source.replace("meta['device'].startswith('cuda')", "meta['device'].startswith('cpu')")
+        # Only the visible smoke budget changes; hidden ICE budget remains 5400 seconds.
+        if 'if not IS_RERUN:' in source and 'ICE_BUDGET = 300' in source:
+            source = source.replace('ICE_BUDGET = 300', f'ICE_BUDGET = {SMOKE_ICE_BUDGET}')
         cell['source'] = source.splitlines(keepends=True)
     notebook['cells'].insert(0, dict(cell_type='code', execution_count=None, metadata={}, outputs=[], source=CPU_SETUP.splitlines(keepends=True)))
-    notebook['metadata']['cpu_e006_notes'] = dict(source='public_v90.ipynb cells0:34', removed_overlay='joint common-evidence cell34', runtime_status='unverified CPU candidate', simulator_budgets='unchanged from source')
+    notebook['metadata']['cpu_e006_notes'] = dict(source='public_v90.ipynb cells0:34', removed_overlay='joint common-evidence cell34', runtime_status='unverified CPU candidate', simulator_budgets='v2 smoke ICE1800s; hidden ICE5400s unchanged; GL4000s unchanged', cpu_smoke_status='v1 ICE300s scored0 after420predictions; v2 expanded budget unverified', hidden_runtime='full CPU timing unverified; watchdog8h30m unchanged')
     validate(notebook)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(notebook, indent=1) + '\n')

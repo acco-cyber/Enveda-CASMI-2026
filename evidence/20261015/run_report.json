@@ -1,0 +1,21 @@
+{
+  "date_kst": "2026-10-15",
+  "account": "gwey1025",
+  "gpu_notebook_status": "complete",
+  "gpu_notebook_version": 1,
+  "gpu_smoke_runtime_seconds": 1048.7,
+  "gpu_full_notebook_log_end_seconds": 1098.96,
+  "validation": "400unique keys match run input;1-25candidates per row;CSVSHA matches audits;ICE/GLstatusok",
+  "visible_smoke_only": true,
+  "competition_submission_ref": 57202348,
+  "new_score": null,
+  "cpu_v1_status": "error",
+  "cpu_v1_error": "ICE smoke300s budget;0/12molecules scored;strict assertion rejected",
+  "cpu_v2_version": 2,
+  "cpu_v2_change": "Only smoke ICE budget300->1800seconds",
+  "cpu_v2_status": "running",
+  "cpu_hidden_runtime_equivalence": "unverified",
+  "daily_slots_initial": 5,
+  "remaining_slots": "verify limits_after.json",
+  "next_experiment": "After baseline score and CPU validation, test no-added-inference Engine2 rank2 insertion. Do not duplicate unchanged predictions."
+}
